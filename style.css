@@ -1,0 +1,699 @@
+/*********************font face****************************************/
+@font-face 
+{
+  font-family: 'Devonshire-Regular';
+  src: url("fonts/Devonshire-Regular.ttf");
+}
+
+@font-face 
+{
+  font-family: 'Heart-Warning';
+  src: url("fonts/Heart-Warming.otf");
+}
+
+@font-face 
+{
+  font-family: 'CroissantOne-Regular';
+  src: url(fonts/CroissantOne-Regular.ttf);
+}
+
+@font-face 
+{
+  font-family: 'DancingScript';
+  src: url(fonts/DancingScript.ttf);
+}
+
+@font-face 
+{
+  font-family: 'KaushanScript-Regular';
+  src: url(fonts/KaushanScript-Regular.ttf);
+}
+
+@font-face 
+{
+  font-family: 'SweetyStrawberry';
+  src: url(fonts/SweetyStrawberry.ttf);
+}
+
+@font-face 
+{
+  font-family: 'Vinegar-Regular';
+  src: url(fonts/Vinegar-Regular.otf);
+}
+/*********************font face****************************************/
+/**********************haut de page************************************/
+*
+{   
+  margin: 0;
+  padding: 0;
+}
+
+header 
+{
+  height: 90px;
+  background-color: #579c87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 
+{
+  font-family: 'Archivo', sans-serif;
+  font-size: 4rem;
+  letter-spacing: -6px;
+  color: #fdcb46;
+  text-decoration: none;
+}
+
+header h1 > a 
+{
+  font-family: 'Archivo', sans-serif;
+  font-size: 4rem;
+  letter-spacing: -6px;
+  color: #fdcb46;
+  text-decoration: none;
+}
+
+section 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0% 8rem 0%;
+  width: 100%
+}
+/*footer*/
+footer 
+{
+  height: 70px;
+  width: 100%;
+  background-color: #579c87;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+footer a 
+{
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2rem;
+  color: #fdcb46;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/*footer*/
+/**********************haut de page************************************/
+
+/**********************commun******************************************/
+.ligne
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 20px 0 ; 
+}
+
+.ligne img 
+{
+  width: 25%;
+}
+
+.menus 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+h1 a 
+{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3rem;
+  letter-spacing: -5px;
+  color: #fdcb46;
+  text-decoration: none;
+}
+.menu 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  box-shadow: 0px 0px 10px 3px #D0D0D0 ;
+  height: 305px;
+  width: 40%;
+  margin: 20px;  
+}
+/*
+p 
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*
+
+
+/*********************commun******************************************/
+ .plat 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*margin: 0 10px 0 10px;*/
+  margin: 10px;
+}
+
+.dessert
+{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.dessert p
+{
+  margin: 10px ;
+}
+
+/************************La note enchanté carte 1er page*******************/
+.menu a 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; 
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+
+.menu a:hover
+{
+  transform: scale(1.15);
+}
+
+.lanote 
+{   
+  background-color: #fcdfdb;    
+}
+.fab.fa-itunes-note
+{
+  background: linear-gradient(to right, #f15d61, #f6916a);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 4rem;
+}
+
+p.bloc-menu-note
+{
+  font-size: 2em ;
+  font-family: 'Devonshire-Regular';
+  color: #3d1319;
+  margin-top: 0;
+}
+
+p.bloc-menu-note--modif
+{
+  font-family: 'Heart-Warning';
+  text-transform: uppercase;
+  color: #3d1319;
+  font-size: 2em;
+  margin-top: 30px;
+} 
+/************************La note enchanté carte 1er page******************/
+
+/*****************lechic ier page ************************************/
+.chic 
+{
+  background-color: #fff5fe;
+}
+
+p.bloc-menu-chic
+{
+  background: linear-gradient(135deg, #e38a12 0%, #9056ff 71%); 
+  color: transparent;
+  -webkit-background-clip: text; 
+  font-family: 'CroissantOne-Regular'; 
+  text-align: center; 
+  font-size:1.15em !important; 
+  font-size: 2em ;
+}
+
+p.bloc-menu-chic--modif
+{ 
+  font-family: 'Vinegar-Regular';
+  color: #c77412; 
+  font-size: 2em ;
+}
+/******************lechic ier page***********************************/
+
+/******************delice ier page***********************************/
+
+.delice 
+{
+  background-color: #f9f9f9;
+}
+
+p.bloc-menu-delice
+{ 
+  background: linear-gradient(135deg, #0229dd 0%, #0e8cfb 100%); 
+  color: transparent;
+  -webkit-background-clip: text;  
+  font-family: 'DancingScript'; 
+  font-size: 2em ;
+}
+
+p.bloc-menu-delice--modif
+{ 
+  font-family: 'SweetyStrawberry'; 
+  color: #0887fb; 
+  font-size: 2em ;
+}
+/**********************delice ier page *****************************/
+
+/**********************lapalette ier page***************************/
+
+.palette 
+{
+  background-color: #fdfffd;
+}
+
+p.bloc-menu-lapalette
+{
+  background: linear-gradient(135deg, #3e923a 0%, #beff7f 100%); 
+  color: transparent; 
+  -webkit-background-clip: text;  
+  font-family: 'KaushanScript-Regular'; 
+  font-size: 2em ;
+}
+
+p.bloc-menu-lapalette--modif
+{
+  font-family: 'SweetyStrawberry'; 
+  color: #72bf56;
+  font-size: 2em ;
+}
+/************************lapalette ier page*************************/
+
+/************************Prochainement*******************************/
+.prochainement 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+
+.titre-prochainement
+{ 
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #579c87;
+}
+
+.titre-prochainement p 
+{
+  color: #fdcb46;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.3rem;
+}
+
+.titre-prochainement
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 265px;
+  background-color: #579c87;
+  border-radius: 10px;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin: 50px 0 100px;
+}
+
+.titre-prochainement:hover
+{
+  opacity: 0.8;
+}
+
+.titre-prochainement p,
+.titre-prochainement a
+{
+  text-decoration: none;
+  color: #fdcb46;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.3rem;
+}
+
+.animation-point  
+{
+  font-size: xx-small;
+  animation-name: dots;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.animation-point-decalage
+{
+  animation-delay: 0.2s
+}
+
+.animation-point-decalage-2
+{
+  animation-delay: 0.4s
+}
+
+@keyframes dots
+{
+  0%   { transform: translateY(0%) ; } 
+  50%  { transform: translateY(-100%) ; }
+  100% { transform: translateY(0%) ; }
+}
+/****************************Prochainement***************************/
+
+/***************shake animation gauche droite mention legal**********/
+.vibreur:hover 
+{
+  animation: shake 150ms ease-in-out;
+  animation-iteration-count: 20;
+}
+
+@keyframes shake
+{
+  0% 
+  { 
+    transform: rotate(0deg);
+  }
+
+  30%
+  {
+    transform: rotate(5deg);
+  }
+
+  70%
+  {
+    transform: rotate(-5deg);
+    
+  }
+
+  100% 
+  {
+    transform: rotate(0deg);
+  }
+}
+/**************shake animation gauche droite mention legal**************/
+
+/*************************menu lanote*************************************/
+.i-note
+{
+  background: linear-gradient(to right, #f15d61, #f6916a);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 4rem;
+  margin: 50px 0 0;
+}
+
+.note-bas
+{
+  margin: 3px;
+}
+
+.lanote
+{
+  background: #fcdfdb;
+  text-align: center;
+  max-width: 700px;
+}
+
+.lanote .plat 
+{
+  font-weight: normal;
+  font-family: 'Heart-Warning';
+}
+
+.lanote .prix
+{
+  font-weight: bold;
+  font-family: 'Heart-Warning';
+}
+
+h2.titre-menu
+{
+  font-family: 'Devonshire-regular';
+  font-weight: normal;
+  font-size: 3.5em;
+  margin-top: 5px;
+  color: #3d1319;
+}
+
+.menu-trait
+{
+  white-space: nowrap;
+  width: 235px;
+  color: #3d1319;
+  font-family: 'Heart-Warning';
+}
+
+.lanote h3 span,
+.lanote p span
+{
+  display: inline-block;
+  padding-bottom: 3px;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.6s ease-in-out;
+}
+
+.lanote h3 span:hover,
+.lanote p span:hover
+{
+  background-size: 100% 100%;
+}
+
+/********************************menu lanote*******************************/
+
+/********************************menu Lechic******************************/
+.menu-chic
+{
+  text-align: center;
+  max-width: 700px;
+  font-family: 'CroissantOne-Regular';
+  background: #fff5fe; 
+}
+.lechic-couleur-1
+{
+  color: #c67412;
+}
+
+.lechic-couleur-2
+{
+  color: #a56799;
+}
+
+.lechic-couleur-3
+{
+ color: #6e4ccc;
+}
+
+.menu-chic h2
+{
+  font-weight: normal;
+}
+
+.titre-lechic
+{ 
+  background: linear-gradient(.25turn, #db8528, #8f5bfe);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5em;
+  margin: 50px 0 0;
+}
+
+.menu-chic h3 span,
+.menu-chic p span
+{
+  display: inline-block;
+  padding-bottom: 3px;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.6s ease-in-out;
+}
+
+.menu-chic h3 span:hover,
+.menu-chic p span:hover
+{
+  background-size: 100% 100%;
+}
+
+.menu-chic .plat
+{
+  font-family:'Vinegar-Regular'
+}
+
+.menu-chic .prix
+{
+  font-weight: bold;
+  font-family:'Vinegar-Regular';
+}
+
+/***********************************menu Lechic***************************/
+
+/***********************************menu Delice***************************/
+.menu-delice
+{
+  text-align: center;
+  max-width: 700px;
+  font-family: 'SweetyStrawberry';
+  background: #f9f9f9;   
+}
+
+.menu-delice 
+{
+  font-weight: normal;
+}
+
+.titre-delice
+{
+  background: linear-gradient(135deg, #0229dd 0%, #0e8cfb 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'DancingScript';
+  font-size: 3.5rem;
+  margin: 50px 0 50px;
+}
+
+.menu-delice h3 span,
+.menu-delice p span
+{
+  display: inline-block;
+  padding-bottom: 3px;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 1px)
+  no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.6s ease-in-out;
+  font-weight: normal;
+}
+
+.menu-delice h3 span:hover,
+.menu-delice p span:hover
+{
+  background-size: 100% 100%;
+}
+
+.menu-delice .plat
+{
+  font-family:'SweetyStrawberry'
+}
+
+.menu-delice .prix
+{
+  font-weight: bold;
+  font-family:'SweetyStrawberry';
+}
+
+/***********************************menu Delice***************************/
+
+/***********************************menu lapalette************************/
+.menu-lapalette
+{
+  text-align: center;
+  max-width: 700px;
+  font-family: 'SweetyStrawberry';
+  background: #fdfffd;   
+}
+
+.titre-lapalette h2
+{
+  font-weight: normal;
+}
+
+.titre-lapalette
+{
+  background: linear-gradient(135deg, #3e923a 0%, #beff7f 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'KaushanScript-Regular';
+  font-size: 3.5rem;
+  margin: 50px 0 50px;
+}
+.menu-lapalette h3 span,
+.menu-lapalette p span
+{
+  display: inline-block;
+  padding-bottom: 3px;
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 1px)
+  no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.6s ease-in-out;
+  font-weight: normal;
+}
+
+.menu-lapalette h3 span:hover,
+.menu-lapalette p span:hover
+{
+  background-size: 100% 100%;
+}
+
+.menu-lapalette .plat
+{
+  font-family:'SweetyStrawberry'
+}
+
+.menu-lapalette .prix
+{
+  font-weight: bold;
+  font-family:'SweetyStrawberry';
+}
+
+/**********************************menu lapalette*************************/
+/**********************************responsive all*************************/ 
+@media screen and (max-width: 768px) 
+{
+  .lanote 
+  {
+    box-shadow: 0px 0px 10px 3px #c2c0c0;
+  }
+
+   .plat 
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prix 
+  {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+
+  .menu
+  {
+    width: 80% ; 
+  }
+}
+
+/********************************mention legal***************************/
+.intro
+{
+  font-family: 'Archivo', sans-serif;
+}
+
+.mentions
+{
+ font-family: 'Archivo', sans-serif; 
+}
